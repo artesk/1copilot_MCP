@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "onec-ai-1c": {
+      "command": "python",
+      "args": ["-m", "MCP_1copilot"],
+      "cwd": "путь_к_папке_с_проектом",
+      "env": {
+        "ONEC_AI_TOKEN": "ваш_токен_от_1c_ai",
+        "ONEC_AI_UI_LANGUAGE": "russian",
+        "ONEC_AI_TIMEOUT": "30",
+        "MAX_ACTIVE_SESSIONS": "10",
+        "PYTHONPATH": "путь_к_папке_с_проектом"
+      }
+    }
+  }
+} 
